@@ -1,0 +1,68 @@
+body { background: #151515; color: #CCC; margin: 0; padding: 0; width: 100vw; height: 100vh;}
+
+.footer { position: absolute; left: 0; bottom: 2vh; text-align: center; width: 100%; height: 8vh; margin: 0; }
+.footer .link { cursor: pointer; }
+.footer .link:hover { color: #999; }
+
+
+.chicoBox { width: 50px; height: 50px; position: absolute; bottom: 10px; left: 10px; cursor: pointer; z-index: 2;}
+.chico { max-width: 100px; position: absolute; bottom: 10px; left: -15px;}
+
+.container { position: absolute; left: 0; top: 0; width: 96vw; height: 86vh; margin: 0; padding: 2vh; z-index: 1; } 
+
+.logoBox { position: absolute; right: 0; bottom: 0; cursor: pointer; display: block; width: 100px; height: 65.81px; z-index: 2;}
+.gstarLogo { position: absolute; right: 0; bottom: 0; text-align: center; width: 100px; }
+.bg-logo { position: absolute; opacity: 0.15; z-index: -999; height: 70vh; right:  0; bottom: 10vh; }
+.bg-black { position: absolute; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: 10;}
+
+.support { color:cadetblue; text-decoration: underline; cursor: pointer; }
+.support-box { position: absolute; width: 80vw; height: 60vh; left: 10vw; top: 20vh; background: #151515; z-index: 11; border-radius: 30px; border: 1px solid cadetblue;}
+.support-content { position: absolute; text-align: center; width: 80vw; height: 20vh; top: 20vh; line-height: 2.5vh}
+.coin-name { color:cadetblue; }
+
+.machine-area { float: left; width: 48vw; }
+.key-area { float: right; text-align: right; height: 100px; width: 48vw; }
+.btn-area { float: left; margin-top: 20px; }
+.disk-area { clear: both; overflow: auto; height: 55vh; }
+.properties { clear: both; margin: 5px; }
+
+.btn-area button { padding: 5px; cursor: pointer; }
+.btn-start { background: #3aac59; border: none; width: 70px; }
+.btn-stop { background: tomato; border: none; width: 70px; }
+.btn-key { background: #3aac59; border: none; }
+
+.key-area label.key { display: inline-block; cursor: pointer; }
+.key-area label.key:hover { color: #aaa; }
+.key-area input.key { width: 40vw; }
+
+.properties div { position: relative; display: inline-block; border: 1px solid #ccc; padding: 15px 5px 10px 5px; margin-top: 15px; border-radius: 5px; min-width: 110px; text-align: center; }
+.properties label { display: block; position: absolute; top: -15px; background: #151515; z-index: 2; padding: 5px; white-space: nowrap; }
+.properties progress { width: 100px;}
+.properties progress::-webkit-progress-bar { background-color: #3aac59; }
+
+.disk-area::-webkit-scrollbar{ width: 5px; }
+.disk-area::-webkit-scrollbar-track{ background-color: #555; }
+.disk-area::-webkit-scrollbar-thumb{ background-color: #000; }
+
+.disk-info { width: 200px; float: left; border: 1px solid #ccc; border-radius: 5px; padding: 5px; position: relative; font-size: 14px; line-height: 14px; margin: 0 0 5px 5px; }
+.disk-info div { display: inline-block; }
+.disk-info:hover { background: rgba(80,80,80,0.5); }
+.disk-info input { display: inline-block; margin: 0; padding: 0; }
+
+.disk-info .down { position: absolute; right: -1px; top: 0; width: 30px; height: 30px; line-height: 30px; font-size: 30px; border: 1px solid #ccc; padding: 1px 3px 7px 3px; border-radius: 5px; cursor: pointer;}
+.disk-info .s { float: right; margin: 0 5px;}
+
+.disk-info .info .final { margin: 0 5px 0 0 }
+.disk-info .info .used { float: right; }
+.disk-info .info .size { float: right; }
+.disk-info .info .capacity { width: 200px; }
+/* .disk-info .info .size { float: right; margin-right: 35px;}
+.disk-info .info .capacity { width: 165px; } */
+
+.disk-info .dropbox { margin-top: 10px; width: 200px; line-height: 17px;}
+.disk-info .dropbox .role { display: block; }
+.disk-info .dropbox .radioBtn { float: right; margin-left: 10px; }
+
+.disk-info .dropbox .plots { display: block; }
+.disk-info .dropbox .plot_count { float: right; }
+.disk-info .dropbox .max_plot_count { float: right; }

@@ -10,14 +10,6 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yenkara/chia-auto-ploter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yenkara/chia-auto-ploter/issues"
-  },
-  "homepage": "https://github.com/yenkara/chia-auto-ploter#readme",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.58",
     "@electron-forge/maker-deb": "^6.0.0-beta.58",
