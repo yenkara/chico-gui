@@ -1,0 +1,66 @@
+{
+  "name": "chico-gui",
+  "version": "0.1.41",
+  "description": "madmax for windows gui",
+  "main": "./electron/main.js",
+  "author": "YSH",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yenkara/chia-auto-ploter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yenkara/chia-auto-ploter/issues"
+  },
+  "homepage": "https://github.com/yenkara/chia-auto-ploter#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.58",
+    "@electron-forge/maker-deb": "^6.0.0-beta.58",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.58",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.58",
+    "@electron-forge/maker-zip": "^6.0.0-beta.58",
+    "electron": "^13.1.7",
+    "electron-packager": "^15.3.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "node-disk-info": "^1.3.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": { 
+        "icon": "./view/img/ico/48x48.ico"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "setupIcon": "./view/img/ico/48x48.ico",
+            "name": "chico_gui",
+            "version": "0.1.41",
+            "loadingGif": "./view/img/ico/icon.gif"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
