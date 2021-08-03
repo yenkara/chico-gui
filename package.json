@@ -1,6 +1,6 @@
 {
   "name": "chico-gui",
-  "version": "0.1.41",
+  "version": "0.1.42",
   "description": "madmax for windows gui",
   "main": "./electron/main.js",
   "author": "YSH",
@@ -34,7 +34,7 @@
           "config": {
             "setupIcon": "./view/img/ico/48x48.ico",
             "name": "chico_gui",
-            "version": "0.1.41",
+            "version": "0.1.42",
             "loadingGif": "./view/img/ico/icon.gif"
           }
         },

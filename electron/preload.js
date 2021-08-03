@@ -71,7 +71,6 @@ window.addEventListener('DOMContentLoaded', () => {
             updateProcessivity('0%')
         }
 
-
         if (processStatus == 'run') {
             processStatus = (processPID != '')? 'running' : (targetDrive == '')? 'stop' :'run'
         } 

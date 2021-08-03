@@ -8,4 +8,4 @@
                 IF NOT EXIST C:\temp\chia\ (MKDIR C:\temp\chia\) ELSE (DEL C:\temp\chia\*.tmp 2>nul)
                 IF NOT EXIST C:\temp\chia\ (MKDIR C:\temp\chia\) ELSE (DEL C:\temp\chia\*.tmp 2>nul)
                 IF NOT EXIST B:\chia\ (MKDIR B:\chia\) 
-                powershell -c "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'; B:\work\monstar\chico-gui-111\electron\madmax\chia_plot.exe -n 36 -r 23 -u 256 -t C:\temp\chia\ -2 C:\temp\chia\ -d B:\chia\ -f b4ff0fbb553caa823b8e5bd7a59effd5c01c6f5ece5d93b1c902f97914cf3481a5ddefd1e78532b8157e6c227a16d5fe -c xch156qlpwxdzh2a3s9ezyuqfk2raddusgvcqu40uyq0g2m2c3g77kfq98qjzh | tee '%LOG_FILE%'"
+                powershell -c "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'; B:\work\monstar\chico-gui-111\electron\madmax\chia_plot.exe -K 2 -n 35 -r 23 -u 256 -t C:\temp\chia\ -2 C:\temp\chia\ -d B:\chia\ -f b4ff0fbb553caa823b8e5bd7a59effd5c01c6f5ece5d93b1c902f97914cf3481a5ddefd1e78532b8157e6c227a16d5fe -c xch156qlpwxdzh2a3s9ezyuqfk2raddusgvcqu40uyq0g2m2c3g77kfq98qjzh | tee '%LOG_FILE%'"

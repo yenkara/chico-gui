@@ -317,6 +317,8 @@ exports.getTerminalPID = () => {
         let stdout = execSync(comend)
     
         result = stdout.toString().split('\n')[3].replace(/ /gi,'').split('cmd.exe')[1].split('Console')[0]
+        if (result.includes('RDP'))
+            result = result.split('RDP')[0]
 
     } catch (e) {
         result = ''

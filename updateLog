@@ -1,17 +1,13 @@
+ - 0.1.42 업데이트
+일부 환경에서 콘솔창이 종료되지 않아 다음 디스크 작업이 안되는 문제 해결.
 
 
  - 0.1.41 업데이트
-maxmax 0.1.5버전 적용. 
+maxmax 0.1.5버전 적용. (https://github.com/stotiks/chia-plotter/releases)
   - K 옵션 2로 세팅.
   - 추후 변경가능하도록 개발예정.
 chia 1.2.3버전 대응. 
   - 하위버전 이용자도 계속 사용 가능.
-
-
-
- - 0.1.4 다운로드
-https://drive.google.com/file/d/19M_Lflz9rlTK12jL7-fL7p_pVoynJr-V/view?usp=sharing (win installer)
-https://drive.google.com/file/d/15evx_FpmFRAJliIxCaf49Yywv_YFoE43/view?usp=sharing (.zip)
 
  - 0.1.4 수정내용
 템프경로 다르게 설정시 자동으로 temptoggle 활성화되던기능 삭제
